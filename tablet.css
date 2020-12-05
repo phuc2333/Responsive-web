@@ -1,0 +1,172 @@
+@media only screen and (max-width:1024px){
+    header,header div.container{
+        height: 90px;
+    }
+    header div.container div.logo{
+          width: 50%;
+      }
+      header div.container div.menu{
+         position: absolute;
+         width: 100%;
+        top: 90px;
+        left: -800px;
+         opacity: 0;
+      }
+      header div.container:hover div.menu{
+        opacity: 1;
+        left: 0px;
+        transition: all ease-in-out 1s;
+      }
+      header div.container div.menu ul{
+          display: flex;
+          flex-direction: column;
+          position: fixed;
+          z-index: 9999;
+          background-color: #34394f;
+          width: 100%;
+          min-height: 250px;
+      }
+    
+      header div.container div.menu ul li, header div.container div.menu ul li a {
+         display: block;
+          width: 100%;
+      }
+      header div.container div.menu ul li a{
+          color: aliceblue;
+          border: 1px solid whitesmoke;
+          line-height: 41px;
+      }
+      header div.container div.icon{
+          width: 50%;
+          margin-right: 10px;
+      }
+      header div.container div.logo a{
+          font-size: 13px;
+          text-indent:20px;
+          display: block;
+      }
+      header div.container .icon .wrap{
+          display: flex;
+      }
+  slide{
+      z-index: -9;
+    height: auto;
+  }
+      slide div.slide-item {
+        letter-spacing: 5px;
+    }
+
+    slide div.slide-item h2 {
+        font-size: 18px;
+        top: 30%;
+        left: 6%;
+       
+    }
+    slide div.slide-item h2 small {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    best-seller {
+        margin-top: 10px;
+    }
+    best-seller ul{
+        flex-wrap: wrap;
+    }
+    best-seller ul li{
+        width: 86%;
+        padding: 30px;
+        margin-left: 30px;
+    }
+    best-seller ul li img{
+        width: 100%;
+        max-width: none;
+    }
+    best-seller ul li .action{
+        top: 40px;
+
+    }
+    best-seller ul li .action{
+        top: 40px;
+        right: 0px;  
+    }
+    best-seller ul li:hover .action{
+        right: 40px;
+    }
+    shipping ul{
+        flex-wrap: wrap;
+    }
+    shipping ul li{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    promotion ul{
+        flex-wrap: wrap;
+    }
+    promotion ul li{
+        margin-right: 0px;
+    }
+    promotion ul li{
+        width: 100%;
+    }
+    promotion ul li img{
+        width: 90%;
+    }
+    footer ul{
+        flex-wrap: wrap;
+    }
+    footer ul li{
+        width: 100%;
+        padding: 17px;
+    }
+    footer ul li:first-child h3, footer ul li:first-child p{
+        margin-left:0px;
+        max-width: 100%;
+    }
+    footer ul li:first-child .form{
+        margin: 16px;
+    }
+
+    product-feature ul li{
+        margin-right: 0px;
+        width: 80%;
+    }
+    product-feature ul li img{
+        width: 100%;
+    }
+
+    footer ul li:last-child{
+        flex-wrap: wrap;
+    }
+    footer ul li:last-child span{
+        width: 50%;
+        text-align: center;
+    }
+    footer ul li:last-child span.one img,footer ul li:last-child span.two img{
+        top: 13%;
+    }
+    footer ul li:last-child span.one img{
+        left: 15px;
+    }
+    footer ul li:last-child span.two img{
+        left: 20px;
+    }
+    footer ul li:last-child span.three img{
+        top: 32px;
+         left: 14px;
+    }
+    footer ul li:last-child span.four img{
+        top: 15px;
+        left: 19px;
+    }
+
+    footer .copyright{
+        flex-wrap: wrap;
+    }
+    footer .copyright p{
+        font-size: 70%;
+        width: 100%;
+    }
+    footer .copyright div.social{
+        width: 100%;
+    }
+}
